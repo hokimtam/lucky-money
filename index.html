@@ -258,6 +258,12 @@
         'numSegments': 10, // Số ô
         'responsive': true,
         'segments': [{
+            'fillStyle': '#FF0000',
+            'text': 'Ô mất lượt',
+            'size': winwheelPercentToDegrees(10),
+            'textFontSize': 25,
+            'textFillStyle': '#ffffff'
+        }, {
             'fillStyle': '#ab6f03',
             'text': '1.000 VNĐ',
             'size': winwheelPercentToDegrees(10),
@@ -299,7 +305,19 @@
             'size': winwheelPercentToDegrees(10),
             'textFontSize': 16,
             'textFillStyle': '#ffffff'
-        },
+        }, {
+            'fillStyle': '#FF9966',
+            'text': '200.000 VNĐ',
+            'size': winwheelPercentToDegrees(10),
+            'textFontSize': 16,
+            'textFillStyle': '#ffffff'
+        }, {
+            'fillStyle': '#00FFFF',
+            'text': '500.000 VNĐ',
+            'size': winwheelPercentToDegrees(10),
+            'textFontSize': 16,
+            'textFillStyle': '#ffffff'
+        }],
         'animation': // Chỉ định hình động để sử dụng.
         {
             'type': 'spinToStop',
